@@ -9,22 +9,23 @@ The repository currently has an API structure (to be consumed by labeler), but c
 ### Folder Structure
 ```
 └── 📁profile_retriever
+    └── 📁methods
+        └── scraping_methods.md
     └── 📁notebooks
         └── profile.ipynb
-        └── session.pkl
     └── 📁src
         └── 📁config
             └── config.py
             └── dev_config.py
             └── production_config.py
         └── 📁controllers
-            └── __init__.py
-            └── 📁__pycache__
-                └── __init__.cpython-311.pyc
-                └── profile_controller.cpython-311.pyc
             └── profile_controller.py
         └── routes.py
         └── utils.py
+    └── 📁test
+        └── name_to_company_proxycurl.csv
+        └── name_to_company.csv
+        └── scrapingbee_res.json
     └── 📁venv
     └── .env
     └── .gitignore
@@ -36,5 +37,4 @@ The repository currently has an API structure (to be consumed by labeler), but c
     └── requirements.txt
     └── session.pkl
     └── template.py
-    └── test.json
 ```
