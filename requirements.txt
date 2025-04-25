@@ -1,0 +1,6 @@
+flask
+pathlib
+python-dotenv
+PyJWT
+staffspy[browser]
+scrapingbee

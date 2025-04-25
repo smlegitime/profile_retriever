@@ -1,0 +1,4 @@
+.env
+session.pkl
+venv/
+__pycache__
